@@ -1,6 +1,6 @@
 {
     "user": {
-        "Health": 0,
-        "Happiness": 0
+        "Health": 100,
+        "Happiness": 100
     }
 }
