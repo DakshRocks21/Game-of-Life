@@ -26,4 +26,3 @@ else:
     logger.info(f"{players_input} people playing")
 
 database.addData(players_input)
-2

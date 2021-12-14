@@ -48,7 +48,7 @@ def addData(player_count):
         logger.critical("Could not add player_data to the data file")
 
 
-def createDataFile():
+def setup():
     logger.debug("Creating Data File")
     try:
         with open("data/data.json", "w") as f:
@@ -57,10 +57,6 @@ def createDataFile():
         logger.debug("data file created successfully")
     except:
         logger.critical("Could not create the data file")
-
-
-def setup():
-    createDataFile()
 
 
 def setPath(path_option):
