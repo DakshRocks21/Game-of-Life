@@ -1,36 +1,17 @@
 {
-    "College": {
-        "current-spot": 0,
-        "path": "College",
-        "cards": {
-            "money": 0,
-            "action-no": 0,
-            "house-name": "",
-            "house-value": 0,
-            "career": "",
-            "career-salary": 0
-        },
-        "family": {
-            "married": "no",
-            "child": 0,
-            "pets": 0
-        }
+    "current-spot": 0,
+    "path": "",
+    "cards": {
+        "money": 0,
+        "action-no": 0,
+        "house-name": "",
+        "house-value": 0,
+        "career": "",
+        "career-salary": 0
     },
-    "Career": {
-        "current-spot": 0,
-        "path": "Career",
-        "cards": {
-            "money": 0,
-            "action-no": 0,
-            "house-name": "",
-            "house-value": 0,
-            "career": "",
-            "career-salary": 0
-        },
-        "family": {
-            "married": "no",
-            "child": 0,
-            "pets": 0
-        }
+    "family": {
+        "married": "no",
+        "child": 0,
+        "pets": 0
     }
 }
