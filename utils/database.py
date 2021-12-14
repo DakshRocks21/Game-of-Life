@@ -5,6 +5,7 @@ from data.config import LOGGER_LEVEL
 logger = Logger()
 logger.config(LOGGER_LEVEL, "Game of LIFE database")
 
+
 def addData():
     logger.debug("Creating Data File")
     try:
@@ -28,3 +29,18 @@ def setup():
     createDataFile()
     addData()
 
+
+def setPath(path_option):
+    if path_option == "1":
+        path_option = "College"
+    else:
+        path_option = "Career"
+    data = json.load(("data.json").read)
+    data["path"] = path_option
+    with open("data/data.json", "w") as f:
+        json.dump(data, f, indent=4)
+
+import random
+def spin():
+    value = random.randint(1, 10)
+    return value

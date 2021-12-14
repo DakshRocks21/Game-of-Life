@@ -1,6 +1,7 @@
 {
-    "user": {
-        "Health": 0,
-        "Happiness": 0
-    }
+    "stats": {
+        "Health": 100,
+        "Happiness": 100
+    },
+    "path": ""
 }

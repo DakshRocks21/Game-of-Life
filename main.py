@@ -10,9 +10,11 @@ logger.debug("Trying to Import Dependencies")
 try:
     import json
     from utils import database 
+    import random
     logger.debug("All Imports Done")
 except:
     logger.error("Could not import ALL Dependencies")
 
 database.setup()
 logger.info("Set-up Complete")
+
